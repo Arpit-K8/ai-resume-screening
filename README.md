@@ -1,7 +1,5 @@
 # AI Resume Screening System
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-resume-screening-a3ccbtzeevwwbajvcsqff8.streamlit.app/)
-
 **Live Demo:** [AI Resume Screening Dashboard](https://ai-resume-screening-a3ccbtzeevwwbajvcsqff8.streamlit.app/)
 
 An end-to-end hiring assistant that scores how well a candidate’s resume fits a job description. Upload a PDF resume, paste a job description (JD), and the system returns a match score, hire/maybe/reject recommendation, gap analysis, and a structured report—powered by Google Gemini and semantic embeddings.
