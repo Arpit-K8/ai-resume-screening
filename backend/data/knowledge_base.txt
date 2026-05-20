@@ -1,0 +1,10 @@
+Backend Developer:
+- Python
+- APIs
+- SQL
+- Docker
+
+Frontend Developer:
+- React
+- JS
+- CSS

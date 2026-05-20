@@ -1,0 +1,144 @@
+# --- Secrets & local config ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+*credentials*.json
+service-account*.json
+secrets.toml
+.streamlit/secrets.toml
+backend/.env
+frontend/.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+__pypackages__/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.envrc
+
+# --- Testing & coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# --- Type checkers & linters ---
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+profile_default/
+
+# --- IDEs & editors ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+.cursor/
+
+# --- OS ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# --- Logs & temp ---
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# --- Caches ---
+.cache/
+.pip-cache/
+.pytest_cache/
+.streamlit/cache/
+
+# --- Docker (local overrides only) ---
+docker-compose.override.yml
+.docker/
+
+# --- Databases (if you add persistence later) ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Uploaded resumes & outputs (do not commit candidate PII) ---
+uploads/
+resumes/
+output/
+reports/
+test_uploads/
+samples/private/
+
+# --- Vector / RAG stores (if you wire RAG to disk later) ---
+chroma/
+.chroma/
+vectorstore/
+faiss_index/
+*.index
+
+# --- Archives (often contain resumes or exports) ---
+*.zip
+*.tar.gz
+*.rar
+
+# --- Streamlit ---
+# (cache above; secrets at top)
+
+Notes.txt
